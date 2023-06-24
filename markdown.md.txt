@@ -1,0 +1,50 @@
+# User Management Screen User Interface Specification
+
+## Introduction
+
+This document provides the specifications for the User Management Screen. Developers are to use these specifications as a guideline for development.
+
+## Requirements
+
+This screen should allow the following functionality:
+
+1. View all users.
+2. Add new users.
+3. Update user information.
+4. Delete users.
+5. Select user as an enabled.
+
+## User Interface Components
+
+### User Table
+
+The User Table should display the following columns:
+
+1. Username
+2. Display Nmae
+3. Phone
+4. Email
+5. User Roles
+6. Enable 
+
+The 'Actions' column will contain buttons for editing and deleting a user.
+
+### Add User Button
+
+When pressed, this button will open a modal for adding new users.
+
+
+The modal will also contain 'Save' button.
+
+## Page Behavior
+
+On initial load, the User Management screen will display all users in the User Table. The Add User Button will be enabled.
+
+When the Add User Button is pressed, the Add/Edit User Modal will be opened. If 'Save' is pressed, the new user will be added to the User Table.
+
+When the Hide Disabled User Button is pressed, page will just show enabled users.
+
+
+## Conclusion
+
+This document outlines the basic structure and behavior for the User Management screen. Developers should follow these guidelines to ensure consistency and usability. Please refer to the wireframes and mockups for further visual guidance.
